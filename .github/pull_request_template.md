@@ -1,6 +1,6 @@
 ### [ISSUE_TITLE](Link_to_issue)
 
-#### Description
+#### :page_facing_up: Description
 
 > _Please include relevant motivation and context and a summary of the changes_
 
@@ -9,5 +9,5 @@
 > _Include TODOS, warnings, things other developers need to be aware of when merging, etc._
 
 #### :play_or_pause_button: Demo:
-> _Include a video or picture._
 
+> _Include a video or picture._
