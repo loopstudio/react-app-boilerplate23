@@ -8,6 +8,6 @@
 
 > _Include TODOS, warnings, things other developers need to be aware of when merging, etc._
 
-#### Demo:
+#### :play_or_pause_button: Demo:
 > _Include a video or picture._
 
