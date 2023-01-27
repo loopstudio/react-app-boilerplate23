@@ -12,7 +12,7 @@
 
 #### :heavy_check_mark: Tasks:
 
-- Write the list of things you performed to help the reviewer.
+- _Write the list of things you performed to help the reviewer._
 
 ---
 
