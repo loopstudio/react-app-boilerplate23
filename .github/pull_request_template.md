@@ -10,7 +10,7 @@ _Please include relevant motivation and context and a summary of the changes._
 
 ---
 
-### :heavy_check_mark: Tasks:
+### :white_check_mark: Tasks:
 
 - _Write the list of things you performed to help the reviewer._
 
