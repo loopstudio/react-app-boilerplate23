@@ -1,4 +1,6 @@
-### [ISSUE_TITLE](Link_to_issue)
+#### :link: Board reference:
+
+- [NameOnTheCard](linkToTheCard)```
 
 #### :page_facing_up: Description
 
