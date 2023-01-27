@@ -6,7 +6,7 @@
 
 #### :page_facing_up: Description
 
-_Please include relevant motivation and context and a summary of the changes_
+_Please include relevant motivation and context and a summary of the changes._
 
 ---
 
