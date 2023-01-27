@@ -1,4 +1,4 @@
-### [Name of the task](Link_to_issue)
+### [ISSUE_TITLE](Link_to_issue)
 
 #### Description
 
