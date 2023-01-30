@@ -5,9 +5,12 @@
   },
   "extends": [
     "airbnb",
+    "prettier",
+    "airbnb-typescript",
+    "eslint:recommended",
     "plugin:react/recommended",
-    "airbnb/hooks",
-    "airbnb-typescript"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
