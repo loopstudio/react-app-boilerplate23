@@ -1,13 +1,17 @@
 const config = {
-  collectCoverageFrom: [
-    "**/*.{js,jsx,ts,tsx}",
-    "!**/*.d.ts",
-    "!**/node_modules/**",
-    "!**/.next/**",
-    "!**/coverage/**",
-    "!**/jest.config.js",
-    "!**/next.config.js",
-  ],
+  coverageThreshold: {
+    global: {
+      branches: 0,
+      functions: 0,
+      lines: 0,
+      statements: 0,
+    },
+  },
+  collectCoverage: true,
+  collectCoverageFrom: ["src/**/*.{ts,tsx}"],
+  coverageDirectory: "coverage",
+  testEnvironment: "jsdom",
+  setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
 };
 
 module.exports = config;
