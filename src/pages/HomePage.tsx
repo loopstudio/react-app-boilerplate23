@@ -1,10 +1,6 @@
-import React from 'react'
-import Home from '../features/Home/Home'
+import React from 'react';
+import Home from '../features/Home';
 
-function HomePage() {
-  return (
-    <Home title='Home page'/>
-  )
-}
+const HomePage = () => <Home title="Home Page" />;
 
-export default HomePage
+export default HomePage;

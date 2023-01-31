@@ -6,7 +6,11 @@ const on = (obj: any, ...args: any) => obj.addEventListener(...args);
 
 const off = (obj: any, ...args: any) => obj.removeEventListener(...args);
 
-export const useClickAway = (ref: any, onClickAway: any, events = defaultEvents) => {
+export const useClickAway = (
+  ref: any,
+  onClickAway: any,
+  events = defaultEvents
+) => {
   const savedCallback = useRef(onClickAway);
 
   useEffect(() => {
@@ -16,7 +20,7 @@ export const useClickAway = (ref: any, onClickAway: any, events = defaultEvents)
   useEffect(() => {
     const handler = (event: any) => {
       const { current: el } = ref;
-      el && !el.contains(event.target) && savedCallback.current(event);
+      return el && !el.contains(event.target) && savedCallback.current(event);
     };
 
     for (const eventName of events) {
