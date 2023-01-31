@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from '../features/Home';
+import Home from 'features/Home';
 
 const HomePage = () => <Home title="Home Page" />;
 
