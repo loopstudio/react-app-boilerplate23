@@ -33,6 +33,14 @@
     "@typescript-eslint/ban-ts-comment": "off",
     "prettier/prettier": "error",
     "import/prefer-default-export": "off",
+    "no-restricted-exports": [
+      "off",
+      {
+        "restrictedNamedExports": [
+          "default"
+        ]
+      }
+    ],
     "react/function-component-definition": "off",
     "react/jsx-props-no-spreading": "off",
     "react/require-default-props": "off",
