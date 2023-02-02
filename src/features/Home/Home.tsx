@@ -4,4 +4,4 @@ import { HomeProps } from './types';
 
 const Home = ({ title }: HomeProps) => <HomeWrapper>{title}</HomeWrapper>;
 
-export default Home;
+export { Home };
