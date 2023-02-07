@@ -19,13 +19,9 @@
       "jsx": true
     },
     "sourceType": "module",
-    "project": "./tsconfig.json"
+    "project": ["./tsconfig.json", "./jest.config.js"]
   },
-  "plugins": [
-    "react",
-    "@typescript-eslint",
-    "prettier"
-  ],
+  "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
     "no-debugger": "off",
     "react/display-name": "off",
@@ -51,11 +47,7 @@
       "error",
       {
         "selector": "variable",
-        "format": [
-          "camelCase",
-          "UPPER_CASE",
-          "PascalCase"
-        ],
+        "format": ["camelCase", "UPPER_CASE", "PascalCase"],
         "leadingUnderscore": "allow"
       }
     ],
@@ -70,6 +62,7 @@
   },
   "ignorePatterns": [
     "**/node_modules/*",
-    "mockServiceWorker.js"
+    "mockServiceWorker.js",
+    "**/coverage/*"
   ]
 }
