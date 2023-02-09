@@ -5,7 +5,7 @@ import HomePage from 'pages/HomePage';
 const AuthenticatedRoutes = () => {
   return (
     <Routes>
-      <Route index element={<HomePage />} />
+      <Route index path="/:lang?" element={<HomePage />} />
       <Route path="*" element={<>Page Not Found</>} />
     </Routes>
   );
