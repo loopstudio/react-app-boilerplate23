@@ -1,4 +1,5 @@
 const config = {
+  moduleDirectories: ['node_modules', 'src'],
   coverageThreshold: {
     global: {
       branches: 0,

@@ -1,10 +1,10 @@
 import { BrowserRouter } from 'react-router-dom';
 import { I18nextProvider } from 'react-i18next';
 import { ThemeProvider } from '@emotion/react';
-import i18n from 'locales';
-import theme from 'theme';
 
 import AuthRouter from 'features/common/components/AuthRouter';
+import i18n from 'locales';
+import theme from 'theme';
 
 function App() {
   return (
