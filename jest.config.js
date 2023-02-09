@@ -22,6 +22,7 @@ const config = {
     '^.+\\.css$': 'jest-transform-css',
     '^.+\\.svg$': 'jest-transform-stub',
   },
+  moduleDirectories: ['node_modules', 'src'],
 };
 
 module.exports = config;
