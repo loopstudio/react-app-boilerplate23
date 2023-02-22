@@ -32,9 +32,7 @@
     "no-restricted-exports": [
       "off",
       {
-        "restrictedNamedExports": [
-          "default"
-        ]
+        "restrictedNamedExports": ["default"]
       }
     ],
     "react/function-component-definition": "off",

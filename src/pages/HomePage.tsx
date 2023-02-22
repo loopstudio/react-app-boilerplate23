@@ -1,5 +1,4 @@
 import { Home } from 'features/Home';
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 const HomePage = () => {
