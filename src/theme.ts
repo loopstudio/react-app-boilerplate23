@@ -7,16 +7,16 @@ const theme: Theme = {
     base: '0.25rem',
     md: '0.375rem',
     lg: '0.5rem',
-    full: '9999px',
+    full: '999rem',
   },
   boxShadow: {
-    base: '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',
+    base: '0 0.1rem 0.3rem 0 rgba(0, 0, 0, 0.1), 0 0.1rem 0.2rem 0 rgba(0, 0, 0, 0.06)',
     darkMd:
-      '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+      '0 0.4rem 0.6rem -0.1rem rgba(0, 0, 0, 0.1), 0 0.2rem 0.4rem -0.1rem rgba(0, 0, 0, 0.06)',
     darkLg:
-      '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+      '0 1rem 1.5rem -0.3rem rgba(0, 0, 0, 0.1), 0 0.4rem 0.6rem -0.2rem rgba(0, 0, 0, 0.05)',
     darkXl:
-      '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
+      '0 2rem 2.5rem -0.5rem rgba(0, 0, 0, 0.1), 0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.04)',
     indigo: '0 0 1.5rem 0.1rem rgba(102, 126, 234, 0.6)',
     none: 'none',
   },
