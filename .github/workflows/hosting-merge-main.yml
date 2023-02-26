@@ -1,0 +1,24 @@
+name: Deploy to Firebase Hosting on merge to main
+'on':
+  push:
+    branches:
+      - main
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install dependencies
+        run: yarn
+      - name: run lint
+        run: yarn lint
+      - name: run tests
+        run: yarn test --watchAll=false --coverage --reporters=default
+      - name: build
+        run: yarn build
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_REACT_APP_BOILERPLATE23 }}'
+          channelId: live
+          projectId: react-app-boilerplate23

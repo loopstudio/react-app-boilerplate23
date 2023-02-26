@@ -7,7 +7,9 @@ import { Error, FormContent } from './Form.styles';
 
 interface FormProps {
   children: React.ReactNode;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onSubmit: (attributes: any) => void;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   formMethods: any;
 }
 

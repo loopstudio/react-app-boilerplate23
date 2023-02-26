@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "react-app-boilerplate23",
+    "develop": "react-app-boilerplate23-dev",
+    "master": "react-app-boilerplate23"
+  },
+  "targets": {},
+  "etags": {}
+}
