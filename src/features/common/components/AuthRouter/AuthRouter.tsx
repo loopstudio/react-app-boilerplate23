@@ -1,5 +1,5 @@
-import AuthenticatedRoutes from './AuthenticatedRoutes';
-import UnauthenticatedRoutes from './UnauthenticatedRoutes';
+import { AuthenticatedRoutes } from './AuthenticatedRoutes';
+import { UnauthenticatedRoutes } from './UnauthenticatedRoutes';
 
 const AuthRouter = () => {
   // TODO: Replace the fixed "true" once we have real auth
@@ -8,4 +8,4 @@ const AuthRouter = () => {
   return isAuthenticated ? <AuthenticatedRoutes /> : <UnauthenticatedRoutes />;
 };
 
-export default AuthRouter;
+export { AuthRouter };

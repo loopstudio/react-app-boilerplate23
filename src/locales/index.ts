@@ -1,7 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import enUSLanguage from './entries/en-US';
-import esESLanguage from './entries/es-ES';
+import { enUSLanguage } from './entries/en-US';
+import { esESLanguage } from './entries/es-ES';
 import { isPartOfLanguages } from './helper';
 
 const getLanguageFromUrl = () => {
@@ -27,4 +27,4 @@ i18n.use(initReactI18next).init({
   },
 });
 
-export default i18n;
+export { i18n };

@@ -2,9 +2,9 @@ import { BrowserRouter } from 'react-router-dom';
 import { I18nextProvider } from 'react-i18next';
 import { Global, ThemeProvider } from '@emotion/react';
 
-import AuthRouter from 'features/common/components/AuthRouter';
-import i18n from 'locales';
-import theme from 'theme';
+import { AuthRouter } from 'features/common/components/AuthRouter';
+import { i18n } from 'locales';
+import { theme } from 'theme';
 
 import { globalStyles } from 'App.styles';
 
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export { App };

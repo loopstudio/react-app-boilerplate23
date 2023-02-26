@@ -9,4 +9,4 @@ const UnauthenticatedRoutes = () => {
   );
 };
 
-export default UnauthenticatedRoutes;
+export { UnauthenticatedRoutes };

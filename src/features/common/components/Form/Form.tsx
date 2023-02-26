@@ -1,7 +1,7 @@
 import { FormProvider } from 'react-hook-form';
-import FormButton from './Button';
-import FormInput from './Input';
-import FormSelect from './Select';
+import { FormButton } from './Button';
+import { FormInput } from './Input';
+import { FormSelect } from './Select';
 
 import { Error, FormContent } from './Form.styles';
 
@@ -34,4 +34,4 @@ Form.Button = FormButton;
 Form.Input = FormInput;
 Form.Select = FormSelect;
 
-export default Form;
+export { Form };

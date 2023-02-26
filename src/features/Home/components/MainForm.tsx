@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import { yupResolver } from '@hookform/resolvers/yup';
-import Form from 'features/common/components/Form';
+import { Form } from 'features/common/components/Form';
 import { Option } from 'features/common/types';
 import { defaultValues, validationSchema } from '../utils';
 
