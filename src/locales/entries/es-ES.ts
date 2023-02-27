@@ -4,4 +4,4 @@ const esESLanguage = {
   translation: esESMessages,
 };
 
-export default esESLanguage;
+export { esESLanguage };

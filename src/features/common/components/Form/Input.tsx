@@ -1,7 +1,7 @@
 import { InputHTMLAttributes } from 'react';
 import { useFormContext } from 'react-hook-form';
 
-import InputLabel from './InputLabel';
+import { InputLabel } from './InputLabel';
 
 import { Error, Input, InputContainer } from './Form.styles';
 
@@ -28,4 +28,4 @@ const FormInput = ({ id, name, label, ...rest }: FormInputProps) => {
   );
 };
 
-export default FormInput;
+export { FormInput };

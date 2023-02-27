@@ -1,7 +1,7 @@
 import { SelectHTMLAttributes } from 'react';
 import { useFormContext } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
-import InputLabel from './InputLabel';
+import { InputLabel } from './InputLabel';
 import { Option } from '../../types';
 
 import { Error, InputContainer, Select } from './Form.styles';
@@ -39,4 +39,4 @@ const FormSelect = ({ id, name, label, options, ...rest }: FormSelectProps) => {
   );
 };
 
-export default FormSelect;
+export { FormSelect };

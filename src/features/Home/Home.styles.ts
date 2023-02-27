@@ -6,4 +6,4 @@ const HomeWrapper = styled.div`
   font-size: 2rem;
 `;
 
-export default HomeWrapper;
+export { HomeWrapper };

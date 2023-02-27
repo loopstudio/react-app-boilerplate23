@@ -6,4 +6,4 @@ const HomePage = () => {
   return <Home title={t('Home.title')} />;
 };
 
-export default HomePage;
+export { HomePage };
