@@ -18,4 +18,4 @@ const Loading = ({ className }: LoadingProps) => (
   </Wrapper>
 );
 
-export default Loading;
+export { Loading };

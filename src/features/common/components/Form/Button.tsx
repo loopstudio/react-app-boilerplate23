@@ -26,4 +26,4 @@ const FormButton = forwardRef(
   )
 );
 
-export default FormButton;
+export { FormButton };

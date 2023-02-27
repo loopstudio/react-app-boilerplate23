@@ -17,4 +17,4 @@ const InputLabel = ({ htmlFor, label, ...rest }: InputLabelProps) => {
   );
 };
 
-export default InputLabel;
+export { InputLabel };

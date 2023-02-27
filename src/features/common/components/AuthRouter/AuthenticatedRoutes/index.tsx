@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 
-import HomePage from 'pages/HomePage';
+import { HomePage } from 'pages/HomePage';
 
 const AuthenticatedRoutes = () => {
   return (
@@ -11,4 +11,4 @@ const AuthenticatedRoutes = () => {
   );
 };
 
-export default AuthenticatedRoutes;
+export { AuthenticatedRoutes };

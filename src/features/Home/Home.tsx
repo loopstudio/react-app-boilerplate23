@@ -1,7 +1,7 @@
 import { MainForm } from './components/MainForm';
 import { HomeProps } from './types';
 
-import HomeWrapper from './Home.styles';
+import { HomeWrapper } from './Home.styles';
 
 const Home = ({ title }: HomeProps) => (
   <HomeWrapper>

@@ -1,7 +1,7 @@
-import enUSMessages from '../messages/en-US';
+import { translations as enUSMessages } from '../messages/en-US';
 
 const enUSLanguage = {
   translation: enUSMessages,
 };
 
-export default enUSLanguage;
+export { enUSLanguage };

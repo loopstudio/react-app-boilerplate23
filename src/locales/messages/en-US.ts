@@ -13,4 +13,4 @@ const translations = {
   },
 };
 
-export default translations;
+export { translations };
