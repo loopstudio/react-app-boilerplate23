@@ -5971,10 +5971,10 @@ find-up@^5.0.0:
     locate-path "^6.0.0"
     path-exists "^4.0.0"
 
-firebase-tools@^11.23.1:
-  version "11.23.1"
-  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-11.23.1.tgz#6120f476fbc3479b52d617aef8396422f2f5d230"
-  integrity sha512-yBYvIrdG+NTnkcWEP4QIdyqbpfwj01X6CQ3uozSEzr2yx1mmWgg148PGy5+ap/NuFkPiMkxBC0UqktoudZFGGg==
+firebase-tools@^11.25.2:
+  version "11.25.2"
+  resolved "https://registry.yarnpkg.com/firebase-tools/-/firebase-tools-11.25.2.tgz#608c50df2a84bc03985f258243125880f3142368"
+  integrity sha512-rKMLosFFlbrBsia11eN8EN6GL3+eOxtq75dbkMOMTUrsckAYgz+JTSoLL+WLksh+eG1aklEtE4K5n1lbmTGzRg==
   dependencies:
     "@google-cloud/pubsub" "^3.0.1"
     abort-controller "^3.0.0"
@@ -6014,6 +6014,7 @@ firebase-tools@^11.23.1:
     node-fetch "^2.6.7"
     open "^6.3.0"
     ora "^5.4.1"
+    p-limit "^3.0.1"
     portfinder "^1.0.32"
     progress "^2.0.3"
     proxy-agent "^5.0.0"
@@ -9541,7 +9542,7 @@ p-limit@^2.0.0, p-limit@^2.2.0:
   dependencies:
     p-try "^2.0.0"
 
-p-limit@^3.0.2, p-limit@^3.1.0:
+p-limit@^3.0.1, p-limit@^3.0.2, p-limit@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-3.1.0.tgz#e1daccbe78d0d1388ca18c64fea38e3e57e3706b"
   integrity sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==
