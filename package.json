@@ -10,7 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.11",
-    "@types/react": "^18.0.27",
+    "@types/react": "^18.2.5",
     "@types/react-dom": "^18.0.10",
     "firebase-tools": "^11.23.1",
     "i18next": "^22.4.9",
