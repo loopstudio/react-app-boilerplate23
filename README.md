@@ -4,7 +4,6 @@
 
 ![GitHub Actions Badge](https://github.com/loopstudio/react-app-boilerplate/workflows/CI/badge.svg)
 [![Codebeat Badge](https://codebeat.co/badges/6382173b-82aa-4fe5-9087-87d53bd5595e)](https://codebeat.co/a/loopstudio/projects/github-com-loopstudio-react-app-boilerplate-master)
-[![firebase]](https://www.firebase.com/)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/loopstudio/react-app-boilerplate.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/loopstudio/react-app-boilerplate/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/loopstudio/react-app-boilerplate.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/loopstudio/react-app-boilerplate/context:javascript)
 
@@ -47,9 +46,7 @@
 ├── .env
 ├── .gitignore
 ├── .eslintrc.json
-├── .firebaserc
 ├── .prettierrc.json
-├── firebase.json
 ├── tsconfig.json
 ├── jest.config.js
 ├── package.json
@@ -136,10 +133,6 @@ If you want to split your component into pieces for readability, maintainability
 ### Styling:
 
 - [emotion](https://emotion.sh/docs/introduction): Provides powerful and predictable style composition in addition to a great developer experience with features such as source maps, labels, and testing utilities. Both string and object styles are supported.
-
-### Deployment:
-
-- [firebase](https://www.firebase.com/): "The fastest way to build the fastest sites". We recommend Firebase as a hosting solution. The free plan is very generous and meets the basic needs of any standard project. Also, it is dead simple to set up and use. For more information, you can dig into the [official docs](https://firebase.google.com/docs).
 
 ## Recommended Extensions
 

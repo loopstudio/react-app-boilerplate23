@@ -1,4 +1,4 @@
-name: Deploy to Firebase Hosting on merge to main
+name: Install dependencies, run lint, tests and build on merging to main
 'on':
   push:
     branches:
@@ -16,9 +16,3 @@ jobs:
         run: yarn test --watchAll=false --coverage --reporters=default
       - name: build
         run: yarn build
-      - uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_REACT_APP_BOILERPLATE23 }}'
-          channelId: live
-          projectId: react-app-boilerplate23
